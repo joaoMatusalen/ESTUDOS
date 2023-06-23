@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 10px 65px;
+}
+
+p{
+    padding: 0px 5px;
+}
+
+button{
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+
+#placar{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 50px;
+    width: 25%
+}
+
+.grid-itens{
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#item-1, #item-2, #item-4, #item-5{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+#item-7, #item-8{
+    border-right: 2px solid black;
+}
+
+#item-3, #item-6{
+    border-bottom: 2px solid black;
+}
+

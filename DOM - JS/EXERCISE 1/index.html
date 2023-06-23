@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escalação Futebol Clube</title>
+  </head>
+  <body>
+    <h1>Escalação Futebol Clube</h1>
+    <hr />
+
+    <h2>Escalar jogador</h2>
+    <label for="pocicao">Pocição:</label>
+    <input name="pocicao" type="text" id="pocicao" />
+
+    <label for="name">Nome:</label>
+    <input name="name" type="text" id="name" />
+
+    <label for="camisa">Número da Camisa:</label>
+    <input name="camisa" type="text" id="camisa" />
+
+    <button onclick="escalarJogador()">Escalar</button>
+
+    <h2>Remover jogador</h2>
+    <label for="remove"></label>
+    <input
+      name="remove"
+      type="text"
+      id="remove"
+      placeholder="Informe o número da camisa do jogador."
+    />
+    <button onclick="removerJogador()">Remover</button>
+
+    <h2>Escalção</h2>
+    <ul id="lista-jogadores"></ul>
+  </body>
+  <script src="main.js"></script>
+</html>
